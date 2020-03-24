@@ -4,6 +4,7 @@
   "description": "IOC example in TS",
   "main": "index.js",
   "scripts": {
+    "build": "tsc -p tsconfig.release.json",
     "test": "jest"
   },
   "author": "Gethin rawlings\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[R",
