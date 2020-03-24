@@ -1,9 +1,9 @@
 // eslint-disable-next-line import/prefer-default-export
 export class Episode {
-  constructor(id: number, title: string, artist: string, duration: number) {
+  constructor(id: number, title: string, series: string, duration: number) {
     this.Id = id;
     this.Title = title;
-    this.Artist = artist;
+    this.Series = series;
     this.Duration = duration;
   }
 
@@ -11,7 +11,7 @@ export class Episode {
 
     public Title: string;
 
-    public Artist: string;
+    public Series: string;
 
     public Duration: number;
 }
