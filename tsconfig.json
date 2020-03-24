@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "lib": [
+        "es6",
+        "dom"
+      ],
+      "types": [
+        "reflect-metadata"
+      ],
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true
+    },
+    "include": [
+      "src/**/*",
+      "__tests__/**/*"
+    ]
+    }
