@@ -13,10 +13,6 @@ export class EpisodeCatalogService {
       return this.repository.get();
     }
 
-    getById(id: number): Episode {
-      return this.repository.getById(id);
-    }
-
     add(episode: Episode): number {
       return this.repository.add(episode);
     }
@@ -25,7 +21,4 @@ export class EpisodeCatalogService {
       return this.repository.edit(id, episode);
     }
 
-    delete(id: number): Episode {
-      return this.repository.delete(id);
-    }
 }
